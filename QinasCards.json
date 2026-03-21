@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "code": "QinasRandom",
+    "name": "QinasRandom",
+    "description": "An unofficial fan-made investigator expansion.",
+    "author": "Qina",
+    "language": "en",
+    "external_link": "",
+    "banner_url": "",
+    "types": ["investigators"],
+    "date_release": "2026-03-19T00:00:00.000Z",
+    "status": "final",
+    "date_updated": "2026-03-19T00:00:00.000Z",
+    "generator": "AD 1.5, AHLCG plugin 9.0, Strange Eons 3.4a3"
+  },
+  "data": {
+    "cards": [
+    {
+      "code": "QinasRandom-001",
+      "cost": null,
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "flavor": "",
+      "illustrator": "To be determined",
+      "is_unique": false,
+      "permanent": true,
+      "name": "The Assassin",
+      "pack_code": "QinasRandom",
+      "double_sided": true,
+      "position": 1,
+      "quantity": 1,
+      "text": "Purchase only at deck creation. Limit one <b><i>Identity</b><i> per investigator.\nThe Assassin enters play Getting Started side up.\nYour deckbuilding is changed to the following:\nDeck size: Your original deck size -5.\nDeckbuilding Options: Cards of your printed class level 0-3, Neutral cards level 0-5, Skills with at least one [combat] icon level 0-2.\nDeckbuilding Requirements: Your original deckbuilding requirements other than any weapon cards in those requirements, 5 copies of Assassin's Knife, Rival Assassin.\nDeckbuilding Restrictions: No <b><i>Weapon</b></i> cards other than Assassin's Knife.\nForced: At the start of the scenario: Flip The Assassin. ",
+      "back_text":"Uses (0 skill)\nWhile The Assassin has ...\n2 or more skill: your attacks with Assassin's knife deal +1 damage.\n4 or more skill: copies of Assassin's knife you own gain fast.\n[reaction] When you defeat an enemy with a copy of Assassin's Knife: Add one skill to The Assassin (limit once per phase).\n[reaction]When an Assassin's Knife you control leaves play, spend one skill: Shuffle it into your deck. (limit once per round)",
+      "traits": "Identity",
+      "type_code": "asset",
+      "xp": 0,
+      "deck_options": [
+      {
+        "faction":["seeker", "guardian", "rogue", "survivor", "mystic"],
+        "level":{
+          "min": 4,
+          "max": 5
+        }, 
+        "not":true
+      },
+      {
+        "trait":["weapon"],
+        "not":true
+      },
+      {
+        "buildql_query": "combat > 0",
+        "type":["skill"],
+        "level":{
+          "min":0,
+          "max":2
+        }
+      }
+      ],
+      "deck_requirements":"size:-5",
+      "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006.jpg",
+      "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006-thumb.jpg"
+    },
+    {
+      "code": "QinasRandom-002",
+      "cost": 1,
+      "deck_limit": 0,
+      "faction_code": "neutral",
+      "flavor": "",
+      "illustrator": "To be determined",
+      "is_unique": false,
+      "permanent": false,
+      "name": "Assassin's Knife",
+      "pack_code": "QinasRandom",
+      "position": 2,
+      "quantity": 5,
+      "skill_combat": 1,
+      "text": "Bonded (The Assassin).\n[action] <b>Fight.</b> You get +1 [combat] for this attack.\n[action] Discard Assassin's Knife: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.",
+      "traits": "Item. Weapon. Melee.",
+      "type_code": "asset",
+      "slot": "Hand",
+      "xp": null,
+      "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006.jpg",
+      "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006-thumb.jpg"
+    }
+    ],
+    "encounter_sets": [
+      {
+        "code": "QinasNonExistentEncounterset",
+        "name": "IDoNotExist"
+      }
+    ],
+    "packs": [
+      {
+        "code": "QinasRandom",
+        "name": "QinasRandom",
+        "date_release": "2026-03-19"
+      }
+    ]
+  }
+}
